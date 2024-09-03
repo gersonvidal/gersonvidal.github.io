@@ -20,6 +20,7 @@ describe('AppComponent', () => {
     expect(app.title).toEqual('mycv');
   });
 
+// ignore this test
   xit('should render title', () => {
     const fixture = TestBed.createComponent(AppComponent);
     fixture.detectChanges();
