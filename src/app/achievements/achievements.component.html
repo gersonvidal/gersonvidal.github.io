@@ -1,0 +1,18 @@
+<div class="achievements-certificates">
+  <h3>Logros y Certificados</h3>
+
+  <ul>
+    <li *ngFor="let achievement of achievements">
+      <span class="achievement-title">
+        {{ achievement.title }} ({{ achievement.year }})
+      </span>
+      <p>{{ achievement.description }}</p>
+    </li>
+
+    <li *ngFor="let certificate of certificates">
+      <span class="achievement-title">
+        {{ certificate.title }}
+      </span>
+    </li>
+  </ul>
+</div>
