@@ -1,0 +1,50 @@
+.skills-competences {
+    margin: 20px;
+  }
+  
+  .skills-container {
+    margin-bottom: 10px;
+  }
+  
+  .skill {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 5px;
+  }
+  
+  .progress-container {
+    position: relative;
+    width: 350px; /* O cualquier ancho que necesites */
+    margin-left: 20px; /* Espacio entre habilidad y barra de progreso */
+  }
+  
+  .levels {
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    width: 440px; /* Asegura que ocupa el ancho total del contenedor */
+    top: -20px; /* Ajusta según sea necesario para alinear con la barra de progreso */
+    left: 190px;
+  }
+  
+  .levels span {
+    flex-grow: 1; /* Hace que cada número ocupe espacio igual */
+    text-align: center;
+    font-size: 12px;
+  }
+  
+  .progress-bar {
+    background-color: #e0e0e0; /* Color de fondo de la barra de progreso */
+    border-radius: 5px;
+    height: 20px; /* Altura de la barra de progreso */
+    width: 100%; /* Asegurar que todas las barras midan lo mismo */
+    overflow: hidden;
+  }
+  
+  .progress {
+    background-color: #76c7c0; /* Color de la barra de progreso */
+    height: 100%; /* Altura de la barra de progreso */
+    transition: width 0.3s; /* Transición suave al cambiar el ancho */
+  }
+  

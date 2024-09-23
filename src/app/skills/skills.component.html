@@ -1,17 +1,26 @@
-<div class="skills-competences">
+<div>
   <h3>Habilidades y Competencias</h3>
-
-  <div class="levels">
-    <span>1</span>
-    <span>2</span>
-    <span>3</span>
-    <span>4</span>
-  </div>
-
-  <div class="skill" *ngFor="let skill of skills">
-    <span>{{ skill.habilidad }}</span>
-    <div class="progress-bar">
-      <div class="progress" [style.width.%]="(skill.nivel / 4) * 100"></div>
+  <div class="skills-competences">
+    <div class="progress-container">
+      <div class="levels">
+        <span>1</span>
+        <span>2</span>
+        <span>3</span>
+        <span>4</span>
+      </div>
+    </div>
+    <div class="skills-container">
+      <div class="skill" *ngFor="let skill of skills">
+        <span>{{ skill.habilidad }}</span>
+        <div class="progress-container">
+          <div class="progress-bar">
+            <div
+              class="progress"
+              [style.width.%]="(skill.nivel / 4) * 100"
+            ></div>
+          </div>
+        </div>
+      </div>
     </div>
   </div>
 </div>

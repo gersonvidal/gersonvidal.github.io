@@ -1,0 +1,27 @@
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  li {
+    margin-bottom: 1px; /* Espaciado entre elementos */
+  }
+  
+  .title {
+    font-size: 16px;
+    color: #22816E;
+    width: 80%; /* Asegúrate de que ocupe todo el ancho disponible */
+    display: block; /* Cambiar a bloque para asegurarte de que se envuelva */
+    overflow-wrap: break-word; /* Para manejar palabras largas */
+    margin-bottom: 0px;
+  }
+  
+  .description {
+    font-size: 12px;
+    width: 90%; /* Asegúrate de que ocupe todo el ancho disponible */
+    display: block; /* Cambiar a bloque para asegurarte de que se envuelva */
+    overflow-wrap: break-word; /* Para manejar palabras largas */
+    margin-top: 5px;
+  }
+  
