@@ -1,0 +1,28 @@
+table {
+    border-radius: 20px; /* Rounded corners */
+    overflow: hidden; /* Ensure rounded corners are applied properly */
+    backdrop-filter: blur(20px); /* Glassmorphism effect */
+    background-color: transparent; /* Translucent background */
+    border: 1px solid rgba(255, 255, 255, 0.3); /*Translucent border*/
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37); /* Soft shadow */
+    color: #fff; /* White text */
+    width: 100%; /* Adjust the width of the table as needed */
+    max-width: 1000px; /* Maximum width */
+}
+
+td {
+    /* padding: 20px 20px 0px; */
+    padding: 5px 0px 0px 20px;
+    text-align: left; /* left align text inside cells */
+    border-radius: 20px; /* Rounded corners */
+    border: 1px solid rgba(255, 255, 255, 0.18); /* Inner translucent borders */
+}
+
+tr {
+    backdrop-filter: blur(5px);
+}
+
+app-header, app-work-experience, app-education, app-skills, app-achievements, app-languages, app-interests {
+    display: block;
+    margin: 0px;
+}
