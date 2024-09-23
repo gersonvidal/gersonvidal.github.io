@@ -10,6 +10,7 @@ table {
   padding: 0px; /* Cell internal padding */
   max-width: 365px; /* Ajusta según sea necesario */
   margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 .name {
@@ -33,6 +34,8 @@ tr {
 td {
   flex: 1; /* Make every cell ocupy equal spacing */
   text-align: center; /* Center content of each cell */
+  align-items: center;
+  padding-top: 30px;  
 }
 
 img {
