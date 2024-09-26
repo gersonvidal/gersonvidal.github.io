@@ -1,0 +1,18 @@
+<h3>Educacion</h3>
+
+<table border="0">
+  <ul *ngFor="let education of scholarity">
+    <li>
+      <tr>
+        <td class="years">{{ education.fecha }}</td>
+      </tr>
+      <tr>
+        <td class="degree">{{ education.grado }}</td>
+      </tr>
+      <tr>
+        <td class="school">{{ education.escuela }}</td>
+        <td></td>
+      </tr>
+    </li>
+  </ul>
+</table>

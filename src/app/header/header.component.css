@@ -1,0 +1,98 @@
+table {
+  width: 100%; /* Ocupará todo el ancho disponible */
+  border-collapse: collapse;
+}
+
+.profile-info {
+  display: flex;
+  flex-direction: column; /* Put the elements in a column */
+  align-items: flex-start; /* Left align */
+  padding: 0px; /* Cell internal padding */
+  max-width: 365px; /* Ajusta según sea necesario */
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.name {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  text-align: left;
+}
+
+.description {
+  font-size: 14px;
+  margin-bottom: 1px;
+  text-align: left;
+}
+
+tr {
+  display: flex; /* Change row to flexbox */
+  justify-content: space-between; /* Spacing between elements */
+}
+
+td {
+  flex: 1; /* Make every cell ocupy equal spacing */
+  text-align: center; /* Center content of each cell */
+  align-items: center;
+  padding-top: 30px;  
+}
+
+img {
+  width: 170px;
+  height: 170px;
+  border-radius: 50%;
+  margin-bottom: 20px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+  margin-left: 5px;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  text-align: right;
+}
+
+ul li {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  margin-bottom: 5px;
+}
+
+ul li::after {
+  content: ""; /* Agregar un contenido vacío para el icono */
+  display: inline-block;
+  width: 25px; /* Ancho de la imagen */
+  height: 25px; /* Alto de la imagen */
+  margin-left: 10px; /* Espacio entre el texto y la imagen */
+  margin-right: 5px;
+}
+
+ul li:nth-child(1) {
+  list-style-image: url("../../../public/bxl-gmail.svg");
+}
+
+ul li:nth-child(1)::after {
+  background-image: url("../../../public/bxl-gmail.svg");
+}
+
+ul li:nth-child(2)::after {
+  background-image: url("../../../public/bxs-phone.svg");
+}
+
+ul li:nth-child(3)::after {
+  background-image: url("../../../public/bxs-map.svg");
+}
+
+ul li:nth-child(4)::after {
+  background-image: url("../../../public/bxl-github.svg");
+}
+
+ul li::after {
+  background-size: cover; /* Ajustar el tamaño de la imagen */
+}
+
+.right-align {
+  margin-top: 20px;
+}

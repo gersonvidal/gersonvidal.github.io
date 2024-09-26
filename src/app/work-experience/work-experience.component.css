@@ -1,0 +1,56 @@
+h3 {
+  margin-top: 10px;
+}
+
+table {
+  width: 100%;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.info {
+  color: #22816e;
+}
+
+.years {
+  width: 95px;
+  text-align: left;
+}
+
+.location {
+  width: 100px;
+  padding-left: 80px;
+  padding-right: 20px;
+  text-align: right;
+}
+
+.flex-container {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  flex-wrap: nowrap;
+}
+
+.position {
+  font-size: 16px;
+  font-weight: bold;
+  text-align: left;
+}
+
+.enterprise {
+  font-size: 16px;
+  font-style: italic;
+}
+
+.accomplishments {
+  padding-top: 8px;
+  color: #22816e;
+}
+
+.bottom-spacing {
+  margin-bottom: 15px;
+}
